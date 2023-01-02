@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/cabin/v26/u-4i0qWljRw-PfU81xCKCpdpbgZJl6Xvqdns.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Cabin2';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/cabin/v26/u-4i0qWljRw-PfU81xCKCpdpbgZJl6Xvqdns.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Cabin3';
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/cabin/v26/u-4V0qWljRw-Pd815fNqc8T_wAFcX-c37MPiNYlWniJ2hJXHx_KVxUbv.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Rubik Bubbles';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rubikbubbles/v2/JIA1UVdwbHFJtwA7Us1BPFbRBTYHfQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+  @font-face {
+    font-family: 'Passions Conflict';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/passionsconflict/v5/kmKnZrcrFhfafnWX9x0GuEC-zowow6NXaxMICA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+
+
+
+
+.font1{
+    font-family: 'Cabin', sans-serif;
+}
+
+.font2{
+    font-family: 'Rubik Bubbles', sans-serif;
+}
+
+.font3{
+    font-family: 'Passions Conflict', serif;
+}
+
+.font4{
+    font-family: 'Cabin2', serif;
+
+}
+
+.font5{
+    font-family: 'Cabin3', serif;
+}
+
+.font6{
+    font-family: 'Cabin4', serif;
+   
+}
+
+
+h1{
+    text-align: center;
+}
+
+li{
+    list-style-position: inside;
+    list-style-type:    square;
+}
+
+
+.container{
+    border: 5px dashed black;
+    border-radius: 10px;
+}
+
+
+.panel{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    min-height: 125px;
+    margin: 12px;
+}
+
+
+
+.panelLabel{
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.panelLabel2{
+    color: black;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+
+.Magenta{
+    background-color: magenta;
+}
+
+.Teal{
+    background-color: teal;
+}
+
+.Maronon{
+    background-color: maroon;
+}
+
+.Yellow{
+    background-color: yellow;
+}
+
+
+
+#runner1{
+    text-align: left;
+}
+
+#runner2{
+    text-align: right;
+}
+
+.list{
+    font-size: 18px;
+}
+
+.list2{
+    font-size: 26px;
+
+}
